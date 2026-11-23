@@ -1,7 +1,7 @@
 #  Arduino — Control y Monitoreo de E/S
 
 ## Esquemático del circuito
-![Esquemático del circuito en SimulIDE](circuito.png)
+![Esquemático del circuito en SimulIDE](Circuito.png)
 
 ## Asignación de pines
 * Entrada E1 (Pulsador 1): Pin Digital `2` conectado a `GND` (configurado con resistencia interna `INPUT_PULLUP`).
