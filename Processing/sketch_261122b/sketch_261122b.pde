@@ -18,12 +18,14 @@ void setup() {
   printArray(Serial.list());
   
   // Solo intenta abrir el puerto si existe al menos uno en Windows
-  if (Serial.list().length > 0) {
-    String nombrePuerto = Serial.list()[0];
-    puerto = new Serial(this, nombrePuerto, 9600);
-    puerto.bufferUntil('\n');
-    conectado = true;
-  } else {
+
+if (Serial.list().length > 0) {
+  String nombrePuerto = "COM5"; // <-- Poné acá el puerto pareja de COM4
+  puerto = new Serial(this, nombrePuerto, 9600);
+  puerto.bufferUntil('\n');
+  conectado = true;
+}
+  else {
     println("AVISO: No se detectaron puertos COM. Ejecutando en modo visual.");
   }
 }
