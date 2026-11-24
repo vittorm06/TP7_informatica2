@@ -9,3 +9,4 @@ El sistema permite:
 2. Conmutar el estado de dos salidas digitales (`L1` y `L2`) tanto al presionar los pulsadores físicos/simulados como al hacer clic con el mouse sobre los indicadores correspondientes en la interfaz gráfica.
 
 ## Video de demostración
+https://youtu.be/5-RLUUbn5e8
