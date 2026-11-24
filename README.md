@@ -1,8 +1,7 @@
 # Trabajo Práctico N.º 7 - Entorno Gráfico 
 
-* **Alumno:** [Tu Nombre Completo]
+* **Alumno:** Mauro Vittor
 
-## Descripción del proyecto
 Desarrollo de una interfaz gráfica en **Processing** vinculada de forma bidireccional mediante comunicación serie con un programa en **Arduino** (simulado en SimulIDE). 
 
 El sistema permite:
